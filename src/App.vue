@@ -11,7 +11,7 @@
         </p>
         <p>
           <router-link to="/todo-offline">Offline todolist</router-link>
-          <router-link to="/todo-rest">REST todolist</router-link>
+          <router-link to="/fetch-list">Fetch list</router-link>
           <router-link to="/counter">Simple counter</router-link>
         </p>
       </div>
