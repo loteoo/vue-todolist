@@ -10,15 +10,18 @@
 </template>
 
 <script>
+
 export default {
   name: 'Counter',
   data: () => ({
     count: 0
   })
 }
+
 </script>
 
 <style scoped>
+
 .counter {
   text-align: center;
 }
@@ -28,4 +31,5 @@ export default {
 button {
   font-size: 2rem;
 }
+
 </style>

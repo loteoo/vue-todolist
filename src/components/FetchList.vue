@@ -38,6 +38,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style scoped>
@@ -51,9 +52,6 @@ export default {
   background-color: #212121;
   min-height: 320px;
 }
-
-
-
 
 h4 {
   padding: 0 0.5rem;
@@ -77,7 +75,6 @@ h4 {
   display: flex;
   align-items: stretch;
 }
-
 
 .name {
   display: flex;

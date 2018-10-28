@@ -9,11 +9,11 @@
             Source code
           </a>
         </p>
-        <p>
+        <nav>
           <router-link to="/todo-offline">Offline todolist</router-link>
           <router-link to="/fetch-list">Fetch list</router-link>
           <router-link to="/counter">Simple counter</router-link>
-        </p>
+        </nav>
       </div>
       <div class="right">
         <router-view></router-view>
@@ -139,6 +139,10 @@ svg {
   display: flex;
   align-items: center;
   min-height: 420px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
 }
 .left {
   width: 50%;
