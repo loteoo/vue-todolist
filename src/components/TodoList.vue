@@ -50,8 +50,7 @@ export default {
   }),
   methods: {
     addItem() {
-      event.preventDefault()
-      this.items.push({
+      this.items = this.items.concat({
         title: this.inputValue,
         done: false,
         editing: false
@@ -62,7 +61,6 @@ export default {
       item.done = !item.done
     },
     toggleItemEditing(itemToToggle) {
-      event.preventDefault()
       this.items = this.items.map(item =>
         item === itemToToggle
           ? ({...item, editing: !item.editing})

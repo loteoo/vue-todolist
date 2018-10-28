@@ -9,22 +9,22 @@
             Source code
           </a>
         </p>
+        <p>
+          <router-link to="/todo-offline">Offline todolist</router-link>
+          <router-link to="/todo-rest">REST todolist</router-link>
+          <router-link to="/counter">Simple counter</router-link>
+        </p>
       </div>
       <div class="right">
-        <TodoList />
+        <router-view></router-view>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import TodoList from './components/TodoList.vue'
-
 export default {
-  name: 'app',
-  components: {
-    TodoList
-  }
+  name: 'app'
 }
 </script>
 
